@@ -75,7 +75,7 @@ namespace Test_Alexis
                     for (Pavlo.volume = 0; Pavlo.volume <= imprimantepapier; Pavlo.volume++)
                     {
                         System.Threading.Thread.Sleep(500);
-                        Console.WriteLine("Imprimation En cours de : " + Pavlo.title + "" + " Edition: " + Pavlo.volume);
+                        Console.WriteLine("Impression En cours de : " + Pavlo.title + "" + " Edition: " + Pavlo.volume);
 
                     }
                     Console.WriteLine("Votre Livre a " + Pavlo.pages + " pages");
@@ -94,7 +94,7 @@ namespace Test_Alexis
                     }
                     Console.WriteLine("Votre Livre a " + Alexis.pages + " pages");
                     Console.WriteLine("Votre Livre a ete ecrit par " + Alexis.author);
-                } else if (imprimante == "Alexis" || imprimante == "Pavlo" && answer == "ptetre")
+                } else if (imprimante == "Alexis" || imprimante == "Pavlo" && answer == !"Pavlo" || answer = !"Alexis")
                 {
                     Console.WriteLine("Va te faire foutre connard ! tu crois que j'ai que ça a faire de ma journée ?");
                     Console.ReadLine();
